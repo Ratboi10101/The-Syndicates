@@ -1,0 +1,309 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Street Era",
+		"techCost": 10,
+		"buildingCost": 20,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Dawn of the Family",
+				"row": 3,
+				"quote": "Every famous mafias or gangs started from here.",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Times of Survival",
+		"techCost": 10,
+		"buildingCost": 20,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Urban Survivor",
+				"row": 4,
+				"prerequisites": ["Humanity's Journey"],
+				"quote": ""
+			},
+			{
+				"name": "Rural Survivor",
+				"row": 7,
+				"prerequisites": ["Humanity's Journey"],
+				"quote": ""
+			},
+			{
+				"name": "Military Survivor",
+				"row": 10,
+				"prerequisites": ["Humanity's Journey"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Times of Survival",
+		"techCost": 15,
+		"buildingCost": 30,
+		"wonderCost": 200,
+		"techs": [
+			{
+				"name": "Scavenging Vehicle",
+				"row": 3,
+				"prerequisites": ["Urban Survivor"],
+				"quote": ""
+			},
+			{
+				"name": "Scavenging Building",
+				"row": 5,
+				"prerequisites": ["Urban Survivor"],
+				"quote": ""
+			},
+			{
+				"name": "Foraging",
+				"row": 7,
+				"prerequisites": ["Rural Survivor"],
+				"quote": ""
+			},
+			{
+				"name": "Total Mobilization",
+				"prerequisites": ["Military Survivor"],
+				"row": 10,
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Times of Survival",
+		"techCost": 15,
+		"buildingCost": 30,
+		"wonderCost": 200,
+		"techs": [
+			{
+				"name": "Search Party",
+				"row": 4,
+				"prerequisites": ["Scavenging Vehicle","Scavenging Building"],
+				"quote": ""
+			},
+			{
+				"name": "Fishing",
+				"row": 6,
+				"prerequisites": ["Foraging"],
+				"quote": ""
+			},
+			{
+				"name": "Hunting Party",
+				"row": 8,
+				"prerequisites": ["Total Mobilization","Foraging"],
+				"quote": ""
+			},
+			{
+				"name": "Militia Organization",
+				"row": 10,
+				"prerequisites": ["Total Mobilization"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Times of Survival",
+		"techCost": 30,
+		"buildingCost": 50,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Basic Structure",
+				"row": 4,
+				"prerequisites": ["Search Party"],
+				"quote": ""
+			},
+			{
+				"name": "Agriculture",
+				"row": 7,
+				"prerequisites": ["Hunting Party","Fishing"],
+				"uniques":["Only available <when above [3] [Seeds]>"],
+				"quote": ""
+			},
+			{
+				"name": "Makeshift Weapons",
+				"row": 9,
+				"prerequisites": ["Militia Organization"],
+				"quote": ""
+			},
+			{
+				"name": "Scent Research",
+				"row": 11,
+				"prerequisites": ["Militia Organization"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Times of Strive",
+		"techCost": 50,
+		"buildingCost": 55,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Back to the Job",
+				"row": 4,
+				"prerequisites": ["Basic Structure"],
+				"quote": ""
+			},
+			{
+				"name": "Food Preseravtion",
+				"row": 7,
+				"prerequisites": ["Agriculture"],
+				"quote": ""
+			},
+			{
+				"name": "Basic Army",
+				"row": 9,
+				"prerequisites": ["Makeshift Weapons","Scent Research"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Times of Strive",
+		"techCost": 70,
+		"buildingCost": 55,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Welding",
+				"row": 3,
+				"prerequisites": ["Back to the Job"],
+				"quote": ""
+			},
+			{
+				"name": "Carpentry",
+				"row": 5,
+				"prerequisites": ["Back to the Job"],
+				"quote": ""
+			},
+			{
+				"name": "River Patrol",
+				"row": 7,
+				"prerequisites": ["Food Preseravtion"],
+				"quote": ""
+			},
+			{
+				"name": "Pike and Shot",
+				"row": 8,
+				"prerequisites": ["Basic Army"],
+				"quote": ""
+			},
+			{
+				"name": "Target Priority",
+				"row": 11,
+				"prerequisites": ["Scent Research"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Times of Strive",
+		"techCost": 90,
+		"buildingCost": 55,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Wiring",
+				"row": 4,
+				"prerequisites": ["Welding","Carpentry"],
+				"quote": ""
+			},
+			{
+				"name": "Cement",
+				"row": 6,
+				"prerequisites": ["Welding","Carpentry"],
+				"quote": ""
+			},
+			{
+				"name": "Signaling",
+				"row": 8,
+				"prerequisites": ["Pike and Shot","River Patrol"],
+				"quote": ""
+			},
+			{
+				"name": "Trapping",
+				"row": 10,
+				"prerequisites": ["Scent Research"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Times of Strive",
+		"techCost": 90,
+		"buildingCost": 70,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Chemistry",
+				"row": 4,
+				"prerequisites": ["Wiring"],
+				"quote": ""
+			},
+			{
+				"name": "Permanent Structure",
+				"row": 6,
+				"prerequisites": ["Cement"],
+				"quote": ""
+			},
+			{
+				"name": "Radio",
+				"row": 8,
+				"prerequisites": ["Wiring","Signaling"],
+				"quote": ""
+			},
+			{
+				"name": "Vehicle Modification",
+				"row": 10,
+				"prerequisites": ["Wiring","Target Priority"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Times of Reclaimation",
+		"techCost": 90,
+		"buildingCost": 70,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Water Pump",
+				"row": 4,
+				"prerequisites": ["Chemistry","Permanent Structure"],
+				"quote": ""
+			},
+			{
+				"name": "Makeshift Vehicle",
+				"row": 6,
+				"prerequisites": ["Chemistry","Radio","Vehicle Modification"],
+				"quote": ""
+			},
+			{
+				"name": "Construction Vehicle",
+				"row": 8,
+				"prerequisites": ["Permanent Structure","Vehicle Modification"],
+				"quote": ""
+			},
+			{
+				"name": "Vehicle Patrol",
+				"row": 10,
+				"prerequisites": ["Vehicle Modification"],
+				"quote": ""
+			},
+		]
+	}
+]
